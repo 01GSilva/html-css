@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas: cm, mm, in, px, pt, pc
+            Medidas relativas: em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* lighter, normal, bold, bolder*/
+            font-style: italic;
+            /*normal, italico*/
+            text-decoration: underline;
+            text-align: justify;
+        }
+        h1{
+            /*Simplificação (shorthand): font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em cursive;
+            text-align: center;
+        }
+        
+        h2{
+            font: bold 2em Arial;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque omnis amet rem impedit minus reiciendis magnam quidem molestias fuga et repellendus, vel recusandae quod cupiditate sint nihil at nesciunt! Distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla quisquam est nemo autem esse aliquid sed beatae possimus, necessitatibus blanditiis. Quasi itaque consectetur a labore vero! Deleniti harum laudantium aliquid!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia sequi nobis, magnam minus perferendis expedita, molestias et error asperiores cupiditate, doloremque corrupti vel sunt quisquam. Fuga nostrum harum consectetur reprehenderit!</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae autem officia pariatur obcaecati ducimus id fugit laudantium, sint culpa totam eos, velit aliquid cum tempora, itaque quasi rerum possimus tenetur?</p>
+</body>
+</html>

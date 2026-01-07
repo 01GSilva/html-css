@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'android';
+    src: url('fontes/idroid.otf');
+}
+
+body{
+    margin: 0px 0px auto 0px;
+    background-color: #84e1ad;
+}
+
+header{
+    align-content: center;
+    height: 200px;
+    background-image:linear-gradient(to bottom, #3cd681, #264a36)
+}
+
+header > h1{
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-image:linear-gradient(to bottom, #264a36, rgba(0, 0, 0, 0.623));
+    margin-top: 0px;
+}
+
+nav > a{
+    color: #a2eec3;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+a:hover{
+    color: cyan;
+}
+
+.conteudo{
+    align-content: center;
+    background-color: white;
+    margin: 0px 15% 0px 15%;
+    padding: 20px 10px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 2em;
+
+}
+
+main > h1{
+    font-family: 'android';
+    margin: auto;
+    color: rgb(13, 99, 13);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
+}
+
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.destaque{
+    color: rgb(13, 99, 13);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
+    text-decoration: none;
+}
+
+.links{
+    color: rgb(13, 99, 13);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
+    text-decoration: none;
+}
+
+.links:hover{
+    color: cyan;
+}
+
+main > h2{
+    background-image: linear-gradient(to left, white, #84e1ac9a);
+    font-family: 'android';
+    color: rgb(13, 99, 13);
+}
+
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.video{
+    height: 315px;
+    align-content: center;
+    margin: 0px 15% 0px 15%;
+    padding: 0;
+    border: none;
+}
+
+.titulo{
+    background-color: #2fa866;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.quadro{
+    background-color: #c5ebd6;
+    text-indent: 2em;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    border-radius: 0 0 10px 10px;
+}
+
+.lista{
+    display: inline-block;
+    width: 49%;
+    list-style-position: inside;
+    text-indent: -1em;
+    align-content: start;
+}
+
+.creditos{
+    background-color: #1a5c38;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
