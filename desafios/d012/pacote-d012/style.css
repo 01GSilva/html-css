@@ -38,5 +38,49 @@ a{
 }
 
 body{
-    background-color: aquamarine;
+    background-color: black;
+}
+
+#flor{
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#livro{
+    width: 100vw;
+    height: 100vw;
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.branco{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 80px 40px 80px 40px;
+
+}
+
+p{
+    font-family: 'Sriracha', sans-serif;
+    font-size: 3vw;
+}
+
+.transparente{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    transform: translate(0,50%);
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+    padding: 80px 40px 80px 40px;
 }
