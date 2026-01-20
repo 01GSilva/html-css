@@ -29,5 +29,27 @@ iframe{
     transform: translate(-50%,50%);
     width: 270px;
     height: 475px;
-    background-color: lightblue;
+}
+
+nav{
+    position: absolute;
+    width: 80px;
+    height: 480px;
+    left: 96%;
+    right: 50%;
+    transform: translate(-50%,5%);
+}
+
+img{
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 3em;
+}
+
+img:hover{
+   width: 80px;
+   height: 80px;
 }
