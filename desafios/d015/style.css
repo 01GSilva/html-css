@@ -46,12 +46,15 @@ img.logos{
     margin-bottom: 10px;
     width: 60px;
     height: 60px;
-    border-radius: 3em;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
 
 img.logos:hover{
-   width: 80px;
-   height: 80px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transform: translate(-3px,-3px);
+    border: 2px solid rgba(255, 255, 255, 0.600);
 }
 
 body.telas{
